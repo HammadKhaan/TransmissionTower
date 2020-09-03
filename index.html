@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center> 
+        <h1>SELECT GEOMETRY</h1>        
+        <br>
+
+        <div>
+        <h2>    VOLTAGE LEVEL (in KV):</h2>
+        <select name="voltage" id="vol">
+            <option value="11">11</option>
+            <option value="66">66</option>
+            <option value="110">110</option>
+            <option value="132">132</option>
+            <option value="220">220</option>
+            <option value="330">330</option>
+            <option value="400">400</option>
+            <option value="500">500</option>
+            <option value="550">550</option>
+            <option value="765">765</option>
+          </select>
+                </div>
+<br>   
+                
+<div>
+    <h2>SELECT PARAMETER</h2>                
+    <select name="field" id="field">
+                        
+                        <option value="ground">Ground Clearance</option>
+                        <option value="height">Height of Tower</option>
+                        <option value="area">Conductor Area</option>
+                        <option value="tower">Type of Tower</option>
+                        <option value="type">Conductor Type</option>
+                        <option value="string">String Efficiency</option>
+                        <option value="span">Span</option>
+                        <option value="insulator">Insulator Type</option>
+                        <option value="inductance">Inductance</option>
+                        <option value="capacitance">Capacitance</option>
+                        
+                      </select>
+                </div>
+
+
+             <br> 
+
+
+            <div>
+                <div class="ch" id="ch"> 
+                    <h2>Choose one Phase</h2>
+                    <select name="" id="choose" >
+                        <option id="solid" value="sc">Solid Conductor</option>
+                        <option id="bundled" value="bc">Bundled Conductor</option>
+                    </select> 
+                </div>
+                <br> 
+                <div class="input" id="input">
+                    <h2>Enter the following values</h2>
+                 <p>   Dab: <input type="number" id="dab" placeholder="Enter distance between phase A and B in meter"> &nbsp; &nbsp; &nbsp;
+                    Dac: <input type="number" id="dac" placeholder="Enter distance between phase A and C in meter"> &nbsp; &nbsp; &nbsp;
+                    Dbc: <input type="number" id="dbc" placeholder="Enter distance between phase B and C in meter"> 
+                </p>
+                </div>
+            <br> 
+                <div class="phase" id="phase">
+                    d: <input type="number" id="d" placeholder="Enter distance between conductor 1 and 2 of any phase"> &nbsp; &nbsp; &nbsp;
+                    m: <input type="number" id="m" placeholder="Enter number of conductors per phase i.e. 2 or 3">
+                </div>
+            </div>
+              <br> 
+            <button onclick="answer()">ANSWER</button>
+<br> 
+    
+ 
+
+<div class="answer1">        
+<h2 id="ans"></h2>
+
+</div>
+</center>
+
+
+
+
+
+
+<script src="app.js">
+    
+</script>
+</body>
+</html>

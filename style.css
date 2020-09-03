@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(background.jpeg);
+    background-size: 100%;
+               
+
+}
+/* button{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+select{
+    width: 160px;
+    height: 50px;
+    text-align-last: center;
+    
+}
+option{
+    align-content: center ;
+}
+.answer1{
+    border: 2px solid black;
+    max-width: max-content;
+    max-height: max-content;
+} */
+
+
+.ch,.input,.phase{
+    visibility: hidden;
+}
+
+#dab,#dac,#dbc{
+    width: 300px;
+    
+}
+/* .answer1{
+    color: limegreen;
+    
+} */
+#d,#m{
+    width: 350px;
+}
+h1,h2,h3,h4,h5,h6{
+    
+    /* color: black; */
+
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black; 
+    font-weight: 800;
+    color: white;
+
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+#ans{
+    color: white !important
+}
+
